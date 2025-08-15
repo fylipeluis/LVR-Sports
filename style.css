@@ -25,7 +25,7 @@ body {
   padding: 10px 30px;
   position: fixed;
 
-  background: rgb(64, 139, 208);
+  background: rgb(88, 144, 195);
   transition: all 0.3s ease-out;
 
   z-index: 2;
@@ -194,6 +194,7 @@ body {
   height: 70vh;
   width: 100%;
   background: white;
+  margin-top: 50px;
 
   display: flex;
   color: black;
@@ -315,13 +316,15 @@ body {
   padding: 30px 20px 20px;
 
   position: relative;
-  background: white;
+  
 
   display: flex;
   align-items: center;
   flex-direction: column;
 
-  border-radius: 20px;
+  border-radius: 20px ;
+  border: 2px solid  black;
+  
 
   z-index: 1;
 }
@@ -335,7 +338,7 @@ body {
   height: 40%;
   width: 100%;
 
-  background: rgb(72, 98, 212);
+  background: rgb(88, 144, 195);
   border-radius: 20px 20px 0px 0px;
 }
 
