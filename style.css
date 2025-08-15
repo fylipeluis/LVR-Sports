@@ -151,36 +151,38 @@ body {
 }
 
 #person {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
-  background: rgb(159, 159, 162);
 
   display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  overflow: hidden;
+  height: 580px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .carousel-track {
   display: flex;
-  height: 102%;
-  transition: transform 0.4s ease-in-out;
+  height: 100%;
 }
 
 .carousel-track img {
   width: 100%;
   height: 100%;
-  object-fit: auto  ;
+  object-fit: cover;
 }
 
 .person-content {
+  margin-top: 200px;
   width: 50%;
   height: 100%;
   display: flex;
@@ -188,22 +190,8 @@ body {
   align-items: center;
 }
 
-.person-image {
-  height: 100%;
-  width: 100%;
-
-  position: relative;
-}
-
-.person-image img {
-  height: 100%;
-  width: 100%;
-
-  object-fit: cover;
-}
-
 #about {
-  height: 100vh;
+  height: 70vh;
   width: 100%;
   background: white;
 
@@ -290,10 +278,11 @@ body {
 #projects {
   height: 100vh;
   width: 100%;
-  background: black;
+   
 
   display: flex;
   flex-direction: column;
+  margin-top: 65px;
 }
 
 .projects-title h2 {
@@ -301,7 +290,7 @@ body {
   padding: 1rem;
 
   font-size: 3rem;
-  color: white;
+  color: black;
 
   display: flex;
   align-items: center;
@@ -494,7 +483,7 @@ button:hover {
   display: flex;
   flex-direction: column;
 
-  height: 40vh;
+  height: 25vh;
   width: 100%;
 
   background-color: #0c0c0c;
