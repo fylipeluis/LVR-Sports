@@ -160,7 +160,7 @@ body {
 
 }
 
-.carousel {
+.img-promocional {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -258,8 +258,6 @@ body {
   padding: 2px 4px;
   border-radius: 4px;
 
-  color: var(--color-black);
-  background: var(--color-pink);
 }
 
 .box-about h4 {
@@ -271,7 +269,6 @@ body {
   display: inline;
   padding: 2px 4px;
 
-  color: var(--color-blue);
   font-size: bold;
   font-weight: 1.75rem;
 }
@@ -279,7 +276,7 @@ body {
 #products {
   height: 100vh;
   width: 100%;
-   
+
 
   display: flex;
   flex-direction: column;
